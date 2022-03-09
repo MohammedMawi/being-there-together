@@ -25,7 +25,7 @@ The steps we need for deploying the webapp on heroku, testing locally with local
    - this assumes that the `python` version you are using (and saved as) is `python3`
    - `venv` is the command to make the virtual environment
    - we name our venv `venv`
-   - think of `-m` as to make the `venv`
+   - think of `-m` as to make the `venv` (but really it is for `module`)
 
 2. source venv/bin/activate
    - this is for `Unix/Linux/Mac`
