@@ -1,5 +1,7 @@
 # Setup Instructions
 
+The steps we need for deploying the webapp on heroku, testing locally with localhost, and the files you will use within the python virtual environment. Remember - we need to _package_ the content to deploy the app
+
 ## Steps
 
 1. clone/grab the sample_site folder
@@ -13,8 +15,9 @@
    - app.py
    - Procfile
    - templates/index.html
-7. 
+7. heroku connection
 
+---
 
 ## Commands to run
 
@@ -43,6 +46,23 @@
 6. we already have the files but you can also generate a `requirements.txt` to ensure your app is running the proper python library versions with:
    - pip freeze > requirements.txt  (might just work for `Linux` I'll double check `Windows` later)
 
+---
+
+## HEROKU
+
+1. make an account at [heroku.com](https://www.heroku.com/) (verify the account with the email account you used to setup)
+2. login to Heroku and at your dashboard you want to`Create New App` - click this button
+3. on the next page, give the app a name and then click `Create app`
+4. Be sure that your app repo has the `requirements.txt` and the `Procfile`
+5. Be sure that your app is _its own repo_ (this can be a public repo on your personal `GitHub`)
+   - to submit `Lab 3` for marking: you must copy the content of your repo into your `firstname_lastname` repo at `Robots` and include your `Heroku` `URL`
+6. This will let you connect Heroku to your GitHub repo of your app (right now it could be called `sample_site` if you copied the example from class contained here)
+7. So select the `connect to GitHub` option and link your repo (probably you will have to login to `GitHub` if you haven't already)
+8. Select `Manual Deploy` and the `branch` (probably it is `main`)
+9. If the build is successful you can now `View App` (get the `URL` to share!)
+
+
+---
 
 ## Test the app
 
