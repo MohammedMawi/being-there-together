@@ -40,6 +40,8 @@ The steps we need for deploying the webapp on heroku, testing locally with local
 ```
 
 5. pip install flask gunicorn
+   - `flask` is a `Python` package to make an interactive app 
+   - `gunicorn` is the `Python` web server interface we are using
    - maybe you use `pip3`
    - maybe you need to setup `VS Code` a bit more first (this will be in the video)
 
@@ -72,7 +74,7 @@ The steps we need for deploying the webapp on heroku, testing locally with local
      - python3 app.py 
    - open a browser window and type the following as a `URL` (both options do the same thing so only need to use one):
      - localhost:5000
-     - 127.0.0.1.5000
+     - 127.0.0.1:5000
      - (localhost _is_ 127.0.0.1)
 3. To check the app after deploying on `Heroku`:
    - type the `URL` you are given from `Heroku`
