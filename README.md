@@ -15,7 +15,7 @@ The steps we need for deploying the webapp on heroku, testing locally with local
    - app.py
    - Procfile
    - templates/index.html
-7. heroku connection
+7. connect to, and deploy with, `Heroku`
 
 ---
 
