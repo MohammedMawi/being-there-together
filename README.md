@@ -1,6 +1,6 @@
 # Setup Instructions
 
-The steps we need for deploying the webapp on heroku, testing locally with localhost, and the files you will use within the python virtual environment. Remember - we need to _package_ the content to deploy the app.. you probably definitely might want to read this regarding [python virtual environments](https://medium.com/co-learning-lounge/create-virtual-environment-python-windows-2021-d947c3a3ca78) (anaconda/conda virtual environment setup is also explained in the article as is a general setup for a virtual environment - like we did for lab)
+The steps we need for deploying the webapp on heroku, testing locally with localhost, and the files you will use within the python virtual environment. Remember - we need to _package_ the content to deploy the app.. you probably definitely might want to read this regarding [python virtual environments](https://medium.com/co-learning-lounge/create-virtual-environment-python-windows-2021-d947c3a3ca78) (anaconda/conda virtual environment setup is also explained in the article as is a general setup for a virtual environment - like we did for lab) .. also helpful [pip in windows and unix](https://pip.pypa.io/en/stable/cli/pip/)
 
 ## Steps
 
@@ -36,6 +36,9 @@ The steps we need for deploying the webapp on heroku, testing locally with local
 
 3. source .\venv\Scripts\activate
    - this is for `Windows`
+
+to get out of a venv? type:
+> `deactivate`
 
 4. your terminal should look like this (`Windows`):
 
