@@ -4,18 +4,22 @@ The steps we need for deploying the webapp on heroku, testing locally with local
 
 ## Steps
 
-1. clone/grab the sample_site folder
-2. make sure the folder inside sample_site is `templates/` with an `s` (just in case something changed)
-3. create the python `virtual environment` using `venv`
-4. activate the `virtual environment`
-5. now we can install the python environment libraries with `pip`
-6. at this point you already have the files from lab (double check):
+1. clone/grab the Lab3 and sample_site folder
+2. IMPORTANT:: make sure the sample_site `IS ITS OWN REPO` so you are doing two things here that we covered in Lab 3 part a):: 
+   - clone tho repo `being-there-together` into `robots`
+   - copy the `sample_site` folder and _make a new repo_ (can be on your personal `GitHub`) and _this_ will be the source for the `Heroku` connection and where you set up the `python venv`
+   - you will later copy the code from your personal repo into the submission folder `being-there-together` for marking and so we know what your final submission version is (along with the link `Heroku` gives you for your app website)
+3. make sure the folder inside sample_site is `templates/` with an `s` (just in case something changed)
+5. create the python `virtual environment` using `venv`
+6. activate the `virtual environment`
+7. now we can install the python environment libraries with `pip`
+8. at this point you already have the files from lab (double check):
    - count.txt
    - requirements.txt
    - app.py
    - Procfile
    - templates/index.html
-7. connect to, and deploy with, `Heroku`
+9. connect to, and deploy with, `Heroku`
 
 ---
 
